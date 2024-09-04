@@ -29,21 +29,20 @@
         }
         .contact-info {
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
+            flex-direction: column;
+            gap: 30px;
         }
-        .contact-section {
+        .contact-card {
             display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+            justify-content: space-between;
             background-color: #ecf0f1;
             border-radius: 8px;
             padding: 20px;
             margin-bottom: 20px;
         }
-        .contact-card {
-            flex-basis: 45%;
+        .contact-details {
+            flex: 1;
+            padding-right: 20px;
         }
         h2 {
             color: #3498db;
@@ -56,14 +55,14 @@
             margin-right: 10px;
             color: #3498db;
         }
+        .map-container {
+            flex: 1;
+        }
         .map-container iframe {
             width: 100%;
-            height: 250px;
+            height: 200px;
             border: none;
             border-radius: 8px;
-        }
-        .map-section {
-            flex-basis: 50%;
         }
         .cta {
             text-align: center;
@@ -81,16 +80,20 @@
         .cta-button:hover {
             background-color: #2980b9;
         }
-        .contact-image {
-            width: 100%;
-            max-height: 200px;
-            object-fit: cover;
-            border-radius: 8px;
+        .office-image {
             margin-bottom: 20px;
+            text-align: center;
+        }
+        .office-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            height: 100px;
+            width: 100px;
         }
         @media (max-width: 768px) {
-            .contact-card, .map-section {
-                flex-basis: 100%;
+            .contact-card {
+                flex-direction: column;
             }
         }
     </style>
@@ -102,36 +105,37 @@
         
         <div class="contact-info">
             <!-- Head Office Section -->
-            <div class="contact-section">
-                <div class="contact-card">
-                    <img src="head-office.jpg" alt="Head Office Image" class="contact-image">
+            <div class="office-image">
+                <!-- <img src="C:\Users\HP\Music\cosmicsurgical\assets\images\HQoffice-building.png" alt="Head Office"> -->
+                <!-- <img src="https://www.vecteezy.com/vector-art/35887289-trendy-office-building" alt="Head Office"> -->
+            </div>
+            <div class="contact-card">
+                <div class="contact-details">
                     <h2>Head Office</h2>
                     <p><span class="icon">📍</span>Vilanganpara Buildings, Near D.C. Books, G.S. Road, Kottayam, Kerala 686001, India</p>
                     <p><span class="icon">📞</span>+91 94473 02140</p>
                     <p><span class="icon">✉️</span>cosmicsurgical@gmail.com</p>
                 </div>
-                <div class="map-section">
-                    <h3>Map - Head Office</h3>
-                    <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.0306244472563!2d76.5271489!3d9.4251089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062cd193d0df69%3A0x6f60c0d4e7b5aeb9!2sD.C.%20BOOKS!5e0!3m2!1sen!2sin!4v1650900000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.0555009961713!2d76.52870818355916!3d9.590484579929836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062b9e0fa692c9%3A0x962cf04df2e7c2d!2sCosmic%20Surgicals!5e0!3m2!1sen!2sin!4v1725456776069!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
                 </div>
             </div>
 
-            <!-- Wholesale Branch Office Section -->
-            <div class="contact-section">
-                <div class="contact-card">
-                    <img src="branch-office.jpg" alt="Wholesale Branch Image" class="contact-image">
+            <!-- Wholesale Branch Section -->
+            <div class="office-image">
+                <!-- <img src="branch-office-image.jpg" alt="Wholesale Branch Office"> -->
+            </div>
+            <div class="contact-card">
+                <div class="contact-details">
                     <h2>Wholesale Branch Office</h2>
                     <p><span class="icon">📍</span>Vayalat Buildings, Challungalpadi, Puthuppally, Kottayam, Kerala 686021, India</p>
                     <p><span class="icon">📞</span>+91 94473 02140</p>
                     <p><span class="icon">✉️</span>cosmicsurgical@gmail.com</p>
                 </div>
-                <div class="map-section">
-                    <h3>Map - Branch Office</h3>
-                    <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.0328286288523!2d76.53165161433655!3d9.424380782078009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062cb7bcfd7b79%3A0x4a39a6b6b6f4de5c!2sPuthuppally%2C%20Kerala%20686021%2C%20India!5e0!3m2!1sen!2sin!4v1650901234567!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15737.975998179798!2d76.55806074078477!3d9.55261417441669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062d2c192a4ab7%3A0xfeb58dff1aa5f4c1!2sCOSMIC%20SURGICALS%2C%20PUTHUPPALLY!5e0!3m2!1sen!2sin!4v1725456826853!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.1237628934796!2d76.5791189!3d9.3960404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062f5b2bc4d3f1%3A0x7fbe7690bc7a97bc!2sVayalat%20Buildings!5e0!3m2!1sen!2sin!4v1650900000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> -->
                 </div>
             </div>
         </div>
@@ -142,5 +146,8 @@
             <a href="mailto:cosmicsurgical@gmail.com" class="cta-button">Email Us Now</a>
         </div>
     </div>
+
+
+    
 </body>
 </html>
