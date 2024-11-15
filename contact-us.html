@@ -6,79 +6,96 @@
     <title>Contact Us - Cosmic Surgicals | Premier Medical Equipment Supplier in Kerala</title>
     <meta name="description" content="Get in touch with Cosmic Surgicals, your trusted partner for high-quality medical equipment in Kerala. Two convenient locations in Kottayam to serve you better.">
     <meta name="keywords" content="Cosmic Surgicals, medical equipment, Kerala, Kottayam, contact us, healthcare supplies">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
         }
         .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
             background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #2c3e50;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
         }
         .contact-info {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             gap: 30px;
+            margin-top: 40px;
         }
         .contact-card {
-            display: flex;
-            justify-content: space-between;
-            background-color: #ecf0f1;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .contact-details {
             flex: 1;
-            padding-right: 20px;
+            min-width: 300px;
+            background-color: #f0f4f7;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
         }
         h2 {
-            color: #3498db;
+            color: #007bff;
             margin-top: 0;
+            font-size: 1.8rem;
         }
-        p {
+        .contact-details p {
+            font-size: 1rem;
             margin: 10px 0;
+            display: flex;
+            align-items: center;
         }
         .icon {
             margin-right: 10px;
-            color: #3498db;
+            color: #007bff;
+            font-size: 1.2rem;
         }
         .map-container {
-            flex: 1;
+            margin-top: 20px;
+            border-radius: 12px;
+            overflow: hidden;
         }
         .map-container iframe {
             width: 100%;
-            height: 200px;
+            height: 250px;
             border: none;
-            border-radius: 8px;
         }
         .cta {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 50px;
         }
         .cta-button {
             display: inline-block;
-            background-color: #3498db;
+            background-color: #007bff;
             color: #ffffff;
-            padding: 12px 24px;
+            padding: 15px 30px;
             text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
         .cta-button:hover {
-            background-color: #2980b9;
+            background-color: #0056b3;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
         .office-image {
             margin-bottom: 20px;
@@ -86,17 +103,112 @@
         }
         .office-image img {
             max-width: 100%;
-            border-radius: 8px;
+            border-radius: 12px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            height: 100px;
-            width: 100px;
+            height: 120px;
+            width: 120px;
         }
         @media (max-width: 768px) {
-            .contact-card {
+            .contact-info {
                 flex-direction: column;
+                gap: 20px;
             }
         }
     </style>
+
+
+<head>
+    <!--=== Required meta tags ===-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--=== custom css ===-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="../../../../../cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--=== custom css ===-->
+    <title>About | Medical Equipment</title>
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="met-header-wrapper">
+        <div class="container">
+            <div class="met-header-parent">
+                <div class="met-logo">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+                </div>
+                <div class="met-header-right">
+                    <div class="met-nav-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <!-- <li>
+                            <a href="javascript:;">collection</a>
+                                <ul class="sub-menu">
+                                    <li><a href="javascript:;">collection one</a></li>
+                                    <li><a href="javascript:;">collection two</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="#">Shop</a></li> -->
+                            <li class="active"><a href="about.html">About</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <!-- <li>
+                      <a href="javascript:;">pages</a>
+                      <ul class="sub-menu">
+                         <li><a href="javascript:;">pages one</a></li>
+                         <li><a href="javascript:;">pages two</a></li>
+                      </ul>
+                   </li> -->
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                            <li>
+                                <button type="button" class="met-btn" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">
+                                    Login
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="met-header-search">
+                        <input type="search" placeholder="Search">
+                        <img src="assets/images/search.svg" alt="search">
+                    </div>
+                    <div class="met-header-icons">
+                        <a href="#">
+                            <img src="assets/images/svg/hart.svg" alt="wishlist">
+                            <div class="tooltip_icon">
+                                wishlist
+                            </div>
+                        </a>
+                        <a href="cart.html">
+                            <img src="assets/images/svg/cart.svg" alt="cart">
+                            <div class="tooltip_icon">
+                                Cart
+                            </div>
+                        </a>
+                        <a href="javascript:;">
+                            <img src="assets/images/svg/user.svg" alt="user">
+                            <div class="tooltip_icon">
+                                User
+                            </div>
+                        </a>
+                    </div>
+                    <div class="el_toggle_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
 </head>
 <body>
     <div class="container">
@@ -105,37 +217,34 @@
         
         <div class="contact-info">
             <!-- Head Office Section -->
-            <div class="office-image">
-                <!-- <img src="C:\Users\HP\Music\cosmicsurgical\assets\images\HQoffice-building.png" alt="Head Office"> -->
-                <!-- <img src="https://www.vecteezy.com/vector-art/35887289-trendy-office-building" alt="Head Office"> -->
-            </div>
             <div class="contact-card">
+                <div class="office-image">
+                    <!-- <img src="https://www.example.com/head-office-image.jpg" alt="Head Office"> -->
+                </div>
                 <div class="contact-details">
                     <h2>Head Office</h2>
                     <p><span class="icon">📍</span>Vilanganpara Buildings, Near D.C. Books, G.S. Road, Kottayam, Kerala 686001, India</p>
-                    <p><span class="icon">📞</span><a href="tel:+919447302140">+91 94473 02140</a></p>
+                    <p><span class="icon">📞</span>+91 94473 02140</p>
                     <p><span class="icon">✉️</span>cosmicsurgical@gmail.com</p>
                 </div>
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.0555009961713!2d76.52870818355916!3d9.590484579929836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062b9e0fa692c9%3A0x962cf04df2e7c2d!2sCosmic%20Surgicals!5e0!3m2!1sen!2sin!4v1725456776069!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.0555009961713!2d76.52870818355916!3d9.590484579929836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062b9e0fa692c9%3A0x962cf04df2e7c2d!2sCosmic%20Surgicals!5e0!3m2!1sen!2sin!4v1725456776069!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
             <!-- Wholesale Branch Section -->
-            <div class="office-image">
-                <!-- <img src="branch-office-image.jpg" alt="Wholesale Branch Office"> -->
-            </div>
             <div class="contact-card">
+                <div class="office-image">
+                    <!-- <img src="https://www.example.com/branch-office-image.jpg" alt="Wholesale Branch Office"> -->
+                </div>
                 <div class="contact-details">
                     <h2>Wholesale Branch Office</h2>
                     <p><span class="icon">📍</span>Vayalat Buildings, Challungalpadi, Puthuppally, Kottayam, Kerala 686021, India</p>
-                    <p><span class="icon">📞</span><a href="tel:+919447302140">+91 94473 02140</a></p>
+                    <p><span class="icon">📞</span>+91 94473 02140</p>
                     <p><span class="icon">✉️</span>cosmicsurgical@gmail.com</p>
                 </div>
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15737.975998179798!2d76.55806074078477!3d9.55261417441669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062d2c192a4ab7%3A0xfeb58dff1aa5f4c1!2sCOSMIC%20SURGICALS%2C%20PUTHUPPALLY!5e0!3m2!1sen!2sin!4v1725456826853!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.1237628934796!2d76.5791189!3d9.3960404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062f5b2bc4d3f1%3A0x7fbe7690bc7a97bc!2sVayalat%20Buildings!5e0!3m2!1sen!2sin!4v1650900000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15737.975998179798!2d76.55806074078477!3d9.55261417441669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062d2c192a4ab7%3A0xfeb58dff1aa5f4c1!2sCOSMIC%20SURGICALS%2C%20PUTHUPPALLY!5e0!3m2!1sen!2sin!4v1725456826853!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -146,8 +255,5 @@
             <a href="mailto:cosmicsurgical@gmail.com" class="cta-button">Email Us Now</a>
         </div>
     </div>
-
-
-    
 </body>
 </html>
