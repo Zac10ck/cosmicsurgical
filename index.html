@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Primary SEO Meta Tags -->
-    <title>Cosmic Surgicals | Kerala's Leading Medical & Surgical Equipment Supplier</title>
-    <meta name="description" content="Cosmic Surgicals - Kerala's trusted supplier of surgical instruments, hospital beds, wheelchairs, water beds, BP monitors, oxygen equipment & medical supplies. Serving Kottayam, Kochi, and all Kerala. Call: +91 94473 02140">
+    <title>Cosmic Surgicals | Kerala's Biggest Surgical Equipment Retailer & Wholesaler</title>
+    <meta name="description" content="Cosmic Surgicals - Kerala's largest surgical equipment retailer and wholesaler. Premium imported medical equipment at affordable prices. Hospital beds, wheelchairs, surgical instruments, BP monitors & more. Wholesale & retail. Open 9 AM - 8 PM. Call: +91 94473 02140">
     <meta name="keywords" content="surgical equipment Kerala, medical equipment Kottayam, hospital beds Kerala, wheelchair supplier, water bed medical, BP monitor, oxygen concentrator, surgical instruments, hospital furniture, homecare equipment, palliative care, medical supplies India">
 
     <!-- Robots & Indexing -->
@@ -29,8 +29,8 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cosmicsurgicals.com/">
-    <meta property="og:title" content="Cosmic Surgicals - Medical Equipment Supplier Kerala">
-    <meta property="og:description" content="Premium surgical instruments, hospital equipment & medical supplies. Trusted by 500+ healthcare facilities across Kerala.">
+    <meta property="og:title" content="Cosmic Surgicals - Kerala's Biggest Surgical Retailer & Wholesaler">
+    <meta property="og:description" content="Kerala's largest surgical equipment retailer and wholesaler. Premium imported medical equipment at affordable wholesale & retail prices. Call: +91 94473 02140">
     <meta property="og:image" content="https://cosmicsurgicals.com/assets/images/og-image.jpg">
     <meta property="og:locale" content="en_IN">
 
@@ -60,7 +60,7 @@
                 "url": "https://cosmicsurgicals.com",
                 "logo": "https://cosmicsurgicals.com/assets/images/logo.svg",
                 "image": "https://cosmicsurgicals.com/assets/images/store.jpg",
-                "description": "Kerala's leading supplier of surgical instruments, medical equipment, hospital furniture, water beds, and healthcare products. Serving hospitals, clinics, and homecare across Kottayam, Kochi, and all districts of Kerala.",
+                "description": "Kerala's biggest surgical equipment retailer and wholesaler. Premium imported medical equipment at affordable prices. We offer wholesale and retail options for hospitals, clinics, and homecare across Kottayam, Kochi, and all districts of Kerala. Open Mon-Sat 9AM-8PM.",
                 "telephone": "+91-94473-02140",
                 "email": "cosmicsurgical@gmail.com",
                 "priceRange": "$$",
@@ -70,7 +70,7 @@
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                     "opens": "09:00",
-                    "closes": "18:00"
+                    "closes": "20:00"
                 },
                 "address": {
                     "@type": "PostalAddress",
@@ -635,6 +635,75 @@
             margin: 0;
         }
 
+        /* Value Banner */
+        .value-banner {
+            background: linear-gradient(135deg, #e6f2ff 0%, #e0fff4 100%);
+            padding: 40px 0;
+        }
+
+        .value-banner-inner {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .value-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .value-item:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .value-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            background: var(--gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .value-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        .value-text h4 {
+            font-size: 1rem;
+            color: var(--dark);
+            margin-bottom: 3px;
+        }
+
+        .value-text p {
+            font-size: 0.85rem;
+            color: var(--gray);
+            margin: 0;
+        }
+
+        @media (max-width: 992px) {
+            .value-banner-inner {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .value-banner-inner {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Section Styles */
         .section {
             padding: 100px 0;
@@ -792,6 +861,88 @@
 
         .product-link:hover {
             gap: 12px;
+        }
+
+        /* Image Gallery Section */
+        .gallery-section {
+            background: var(--light);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 250px;
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius);
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .gallery-item.large {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            padding: 30px 20px 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        .gallery-overlay h4 {
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .gallery-overlay p {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        @media (max-width: 992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 200px;
+            }
+            .gallery-item.large {
+                grid-column: span 2;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                grid-auto-rows: 200px;
+            }
+            .gallery-item.large {
+                grid-column: span 1;
+            }
         }
 
         /* About Section */
@@ -1381,6 +1532,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#products">Products</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -1411,6 +1563,7 @@
         <a href="#home" onclick="toggleMobile()">Home</a>
         <a href="#services" onclick="toggleMobile()">Services</a>
         <a href="#products" onclick="toggleMobile()">Products</a>
+        <a href="#gallery" onclick="toggleMobile()">Gallery</a>
         <a href="#about" onclick="toggleMobile()">About</a>
         <a href="#contact" onclick="toggleMobile()">Contact</a>
         <a href="tel:+919447302140" class="btn btn-primary" style="margin-top: 30px;">Call Now</a>
@@ -1423,12 +1576,12 @@
                 <div class="hero-content">
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L13.09 8.26L19 7L14.74 11.76L21 14L14.46 15.46L15 22L10.24 16.74L7 21L8.54 14.46L2 13L8.26 11.74L7 5L11.76 9.26L12 2Z"/></svg>
-                        Trusted by 500+ Healthcare Facilities
+                        Kerala's Biggest Surgical Retailer & Wholesaler
                     </div>
 
-                    <h1>Kerala's Leading <span class="text-gradient">Medical Equipment</span> Partner</h1>
+                    <h1>Premium <span class="text-gradient">Imported Medical Equipment</span> at Affordable Prices</h1>
 
-                    <p>Your one-stop destination for premium surgical instruments, hospital beds, wheelchairs, water beds, and medical supplies. Serving hospitals, clinics, and homecare across Kerala.</p>
+                    <p>Kerala's largest surgical equipment retailer and wholesaler. We supply high-quality imported medical equipment at the most affordable rates. Whether you need one piece or bulk orders, we offer the best wholesale and retail prices for hospitals, clinics, and homecare.</p>
 
                     <div class="hero-buttons">
                         <a href="tel:+919447302140" class="btn btn-primary btn-lg">
@@ -1520,16 +1673,60 @@
                     <p>Years of Excellence</p>
                 </div>
                 <div class="trust-item">
-                    <h3>500+</h3>
-                    <p>Hospitals & Clinics</p>
+                    <h3>5000+</h3>
+                    <p>Products in Stock</p>
                 </div>
                 <div class="trust-item">
-                    <h3>1000+</h3>
-                    <p>Products Available</p>
+                    <h3>Best</h3>
+                    <p>Wholesale Prices</p>
                 </div>
                 <div class="trust-item">
-                    <h3>10+</h3>
-                    <p>Districts Covered</p>
+                    <h3>100%</h3>
+                    <p>Quality Imported</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Banner -->
+    <section class="value-banner">
+        <div class="container">
+            <div class="value-banner-inner">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"/></svg>
+                    </div>
+                    <div class="value-text">
+                        <h4>Wholesale & Retail</h4>
+                        <p>Best prices for bulk orders & single purchases</p>
+                    </div>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                    </div>
+                    <div class="value-text">
+                        <h4>Imported Quality</h4>
+                        <p>Premium international brands at Indian prices</p>
+                    </div>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+                    </div>
+                    <div class="value-text">
+                        <h4>Affordable Rates</h4>
+                        <p>Unbeatable prices without compromising quality</p>
+                    </div>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+                    </div>
+                    <div class="value-text">
+                        <h4>Trusted Quality</h4>
+                        <p>ISO certified products with warranty</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1705,6 +1902,75 @@
         </div>
     </section>
 
+    <!-- Image Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Products</span>
+                <h2>Quality Medical Equipment Gallery</h2>
+                <p>Premium imported equipment at wholesale and retail prices</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80" alt="Modern Hospital Equipment - Surgical Instruments" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Surgical Instruments</h4>
+                        <p>Premium imported quality</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=400&q=80" alt="Hospital Bed Medical Equipment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Hospital Beds</h4>
+                        <p>ICU & Fowler Beds</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&q=80" alt="Medical Laboratory Equipment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Lab Equipment</h4>
+                        <p>Diagnostic Tools</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=400&q=80" alt="Wheelchair Medical Mobility" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Wheelchairs</h4>
+                        <p>Manual & Motorized</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=80" alt="Blood Pressure Monitor Medical Device" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>BP Monitors</h4>
+                        <p>Digital & Analog</p>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&q=80" alt="Hospital Interior Medical Facility Setup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Complete Hospital Setup</h4>
+                        <p>End-to-end solutions</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=400&q=80" alt="Oxygen Equipment Medical Supplies" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Oxygen Equipment</h4>
+                        <p>Concentrators & Cylinders</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400&q=80" alt="PPE Medical Safety Equipment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Safety Equipment</h4>
+                        <p>PPE & Consumables</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section class="section about" id="about">
         <div class="container">
@@ -1721,8 +1987,8 @@
 
                 <div class="about-content">
                     <span class="section-label">About Us</span>
-                    <h2>Your Trusted Medical Equipment Partner in Kerala</h2>
-                    <p>Cosmic Surgicals has been serving the healthcare industry in Kerala for over 15 years. We are committed to providing high-quality surgical instruments, hospital equipment, and medical supplies to hospitals, clinics, and homecare settings.</p>
+                    <h2>Kerala's Biggest Surgical Retailer & Wholesaler</h2>
+                    <p>For over 15 years, Cosmic Surgicals has been the most trusted name in medical equipment across Kerala. We are the largest surgical and scientific equipment distributor, offering premium <strong>imported products at the most affordable prices</strong>. Whether you're a hospital looking for bulk supplies or a home caregiver needing a single item, our <strong>wholesale and retail</strong> options ensure you get the best value without compromising on quality.</p>
 
                     <div class="about-features">
                         <div class="about-feature">
@@ -1866,7 +2132,7 @@
                         </div>
                         <div class="map-info">
                             <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
                         </div>
                         <div class="map-embed">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15736!2d76.52!3d9.56!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzMnMzYuMCJOIDc2wrAzMScxMi4wIkU!5e0!3m2!1sen!2sin" loading="lazy" title="Cosmic Surgicals Wholesale Branch"></iframe>
