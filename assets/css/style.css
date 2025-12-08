@@ -792,7 +792,7 @@ ul, ol {
 }
 
 .logo img {
-  height: 50px;
+  height: 65px;
   width: auto;
   transition: transform var(--transition-base);
 }
@@ -2449,7 +2449,7 @@ ul, ol {
 }
 
 .footer-logo {
-  height: 50px;
+  height: 65px;
   margin-bottom: var(--space-5);
 }
 
@@ -2776,8 +2776,8 @@ ul, ol {
 }
 
 .loader-logo {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   animation: pulse 1.5s ease-in-out infinite;
 }
 
