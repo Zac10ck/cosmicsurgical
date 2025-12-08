@@ -2354,11 +2354,98 @@ ul, ol {
   transform: translateY(-5px);
 }
 
-.contact-form-wrapper {
+.contact-form-wrapper,
+.contact-maps-wrapper {
   background: var(--white);
   border-radius: var(--radius-2xl);
   padding: var(--space-10);
   box-shadow: var(--shadow-lg);
+}
+
+/* Location Cards */
+.location-card {
+  background: var(--gray-50);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  border: 1px solid var(--gray-200);
+}
+
+.location-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.location-title i {
+  color: var(--primary);
+}
+
+.map-container {
+  margin-bottom: var(--space-4);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.map-container iframe {
+  display: block;
+}
+
+.location-address {
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  margin-bottom: var(--space-4);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.location-address i {
+  color: var(--primary);
+  margin-top: 3px;
+}
+
+.location-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.location-buttons .btn {
+  flex: 1;
+  min-width: 120px;
+  justify-content: center;
+  font-size: var(--text-sm);
+  padding: var(--space-3) var(--space-4);
+}
+
+/* WhatsApp Button Style */
+.btn-whatsapp {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: var(--white);
+  border: none;
+}
+
+.btn-whatsapp:hover {
+  background: linear-gradient(135deg, #128C7E, #075E54);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary);
+  color: var(--white);
 }
 
 .contact-form-title {
@@ -3072,8 +3159,17 @@ ul, ol {
   }
 
   .contact-info,
-  .contact-form-wrapper {
+  .contact-form-wrapper,
+  .contact-maps-wrapper {
     padding: var(--space-6);
+  }
+
+  .location-buttons {
+    flex-direction: column;
+  }
+
+  .location-buttons .btn {
+    width: 100%;
   }
 
   .cta-buttons {
