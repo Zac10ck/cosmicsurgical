@@ -98,11 +98,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
 
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Cosmic Surgicals">
+
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://maps.googleapis.com">
 
     <!-- Preload Critical Resources -->
     <link rel="preload" href="assets/css/style.css" as="style">
@@ -112,6 +119,8 @@
     <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://www.google.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
@@ -1461,7 +1470,8 @@
                                     allowfullscreen=""
                                     loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"
-                                    title="Cosmic Surgicals Kottayam Location">
+                                    title="Cosmic Surgicals Kottayam Location"
+                                    aria-label="Google Maps showing Cosmic Surgicals Kottayam head office location">
                                 </iframe>
                             </div>
                             <p class="location-address"><i class="fas fa-map-marker-alt"></i> Vilanganpara Buildings, Near D.C. Books, G.S. Road, Kottayam 686002</p>
@@ -1490,7 +1500,8 @@
                                     allowfullscreen=""
                                     loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"
-                                    title="Cosmic Surgicals Puthuppally Location">
+                                    title="Cosmic Surgicals Puthuppally Location"
+                                    aria-label="Google Maps showing Cosmic Surgicals Puthuppally branch location">
                                 </iframe>
                             </div>
                             <p class="location-address"><i class="fas fa-map-marker-alt"></i> Vayalat Building, Chalunkalpady, Puthuppally 686011</p>
