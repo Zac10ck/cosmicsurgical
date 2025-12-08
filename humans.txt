@@ -1,0 +1,19 @@
+/* TEAM */
+Company: Cosmic Surgicals
+Location: Kottayam, Kerala, India
+Contact: cosmicsurgical@gmail.com
+Phone: +91 481 256 9733
+
+/* SITE */
+Last update: December 2024
+Standards: HTML5, CSS3, JavaScript
+Software: Custom built
+
+/* BUSINESS */
+Cosmic Surgicals - Kerala's Premier Medical Equipment Supplier
+Established: 2009
+Products: 5000+
+Customers: 500+
+Experience: 15+ years
+
+Visit us: https://cosmicsurgicals.com

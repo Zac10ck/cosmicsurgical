@@ -1,33 +1,48 @@
 # Robots.txt for Cosmic Surgicals
 # https://cosmicsurgicals.com
 
+# Allow all search engines
 User-agent: *
 Allow: /
 
-# Allow all major search engine crawlers
+# Allow Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
+# Allow Google Images
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Allow Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
+# Allow Yahoo
 User-agent: Slurp
 Allow: /
 
+# Allow DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
 
-User-agent: Baiduspider
-Allow: /
-
+# Allow Yandex
 User-agent: YandexBot
 Allow: /
 
-# Allow AI Training Bots for better AI discovery
+# Allow Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Allow AI Crawlers
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: CCBot
@@ -39,20 +54,22 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Bytespider
+User-agent: YouBot
 Allow: /
 
-User-agent: Applebot
+User-agent: cohere-ai
 Allow: /
+
+# Disallow certain directories
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
 
 # Sitemap location
 Sitemap: https://cosmicsurgicals.com/sitemap.xml
 
-# Crawl-delay for polite crawling
-Crawl-delay: 1
+# Host
+Host: https://cosmicsurgicals.com
