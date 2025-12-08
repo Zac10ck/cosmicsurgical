@@ -2,13 +2,13 @@
 # Last Updated: December 2024
 
 ## Company Overview
-Cosmic Surgicals is Kerala's leading medical equipment supplier, established in 2009. We specialize in providing high-quality surgical instruments, hospital furniture, diagnostic equipment, and healthcare supplies to hospitals, clinics, and healthcare facilities across Kerala, India.
+Cosmic Surgicals is Kerala's leading medical equipment supplier, established in 1990. We specialize in providing high-quality surgical instruments, hospital furniture, diagnostic equipment, and healthcare supplies to hospitals, clinics, and healthcare facilities across Kerala, India.
 
 ## Business Information
 - Company Name: Cosmic Surgicals
 - Industry: Medical Equipment Supply
-- Founded: 2009
-- Experience: 15+ years
+- Founded: 1990
+- Experience: 34+ years
 - Products: 5000+
 - Customers: 500+ healthcare facilities
 
@@ -46,7 +46,7 @@ Sunday: Closed
 - Bulk pricing for hospitals
 
 ## Why Choose Cosmic Surgicals?
-- 15+ years of industry experience
+- 34+ years of industry experience
 - ISO certified products
 - 5000+ quality products
 - Competitive pricing
