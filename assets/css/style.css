@@ -2610,6 +2610,143 @@ ul, ol {
 }
 
 /* ============================================
+   FLOATING ACTION BUTTONS (WhatsApp & Call)
+   ============================================ */
+.floating-buttons {
+  position: fixed;
+  bottom: var(--space-8);
+  left: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  z-index: var(--z-fixed);
+}
+
+.floating-btn {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  color: var(--white);
+  font-size: 1.5rem;
+  text-decoration: none;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-base);
+  animation: floatButton 3s ease-in-out infinite;
+}
+
+.floating-btn:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+@keyframes floatButton {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.whatsapp-btn {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+}
+
+.whatsapp-btn:hover {
+  background: linear-gradient(135deg, #128C7E, #075E54);
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.call-btn {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+}
+
+.call-btn:hover {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary-darker));
+  transform: scale(1.1);
+  box-shadow: var(--shadow-glow);
+}
+
+.floating-btn-tooltip {
+  position: absolute;
+  left: 70px;
+  background: var(--secondary);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  transition: all var(--transition-base);
+  pointer-events: none;
+}
+
+.floating-btn-tooltip::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent var(--secondary) transparent transparent;
+}
+
+.floating-btn:hover .floating-btn-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/* Pulse animation for WhatsApp button to draw attention */
+.whatsapp-btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: rgba(37, 211, 102, 0.4);
+  animation: pulseBtnRing 2s ease-out infinite;
+  z-index: -1;
+}
+
+@keyframes pulseBtnRing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Mobile adjustments for floating buttons */
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: var(--space-4);
+    left: var(--space-4);
+  }
+
+  .floating-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+
+  .floating-btn-tooltip {
+    display: none;
+  }
+}
+
+/* ============================================
    LOADING ANIMATION
    ============================================ */
 .page-loader {
