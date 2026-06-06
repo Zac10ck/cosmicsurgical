@@ -16,7 +16,7 @@
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="language" content="English">
     <meta name="revisit-after" content="3 days">
-    <meta name="theme-color" content="#00D4FF">
+    <meta name="theme-color" content="#0EA5A4">
     <meta name="rating" content="general">
     <meta name="distribution" content="global">
     <meta name="coverage" content="India">
@@ -325,7 +325,44 @@
             "@type": "SearchAction",
             "target": "https://cosmicsurgicals.com/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
+        },
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["#hero-title", ".hero-description", ".trust-item-title"]
         }
+    }
+    </script>
+
+    <!-- Structured Data - ContactPoint (AI/voice assistant friendly) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cosmic Surgicals",
+        "url": "https://cosmicsurgicals.com",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+91-481-256-9733",
+                "contactType": "sales",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Malayalam", "Hindi"],
+                "contactOption": "TollFree",
+                "hoursAvailable": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "opens": "09:00",
+                    "closes": "20:00"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+91-94473-02140",
+                "contactType": "customer support",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Malayalam", "Hindi"]
+            }
+        ]
     }
     </script>
 
@@ -845,6 +882,42 @@
             <div class="hero-scroll">
                 <div class="hero-scroll-mouse"></div>
                 <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- Trust / Highlights Strip -->
+        <section class="trust-strip" aria-label="Why choose Cosmic Surgicals">
+            <div class="container">
+                <div class="trust-grid">
+                    <div class="trust-item" data-animate data-delay="100">
+                        <div class="trust-item-icon"><i class="fas fa-award" aria-hidden="true"></i></div>
+                        <div>
+                            <span class="trust-item-title">34+ Years Trusted</span>
+                            <p class="trust-item-text">Serving Kerala since 1990</p>
+                        </div>
+                    </div>
+                    <div class="trust-item" data-animate data-delay="200">
+                        <div class="trust-item-icon"><i class="fas fa-tags" aria-hidden="true"></i></div>
+                        <div>
+                            <span class="trust-item-title">Best Price Guarantee</span>
+                            <p class="trust-item-text">Wholesale &amp; retail rates</p>
+                        </div>
+                    </div>
+                    <div class="trust-item" data-animate data-delay="300">
+                        <div class="trust-item-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                        <div>
+                            <span class="trust-item-title">ISO Certified Quality</span>
+                            <p class="trust-item-text">10,000+ genuine products</p>
+                        </div>
+                    </div>
+                    <div class="trust-item" data-animate data-delay="400">
+                        <div class="trust-item-icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
+                        <div>
+                            <span class="trust-item-title">Free Installation</span>
+                            <p class="trust-item-text">24/7 after-sales support</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1632,6 +1705,24 @@
         </div>
         <meta itemprop="priceRange" content="$$">
         <meta itemprop="openingHours" content="Mo-Sa 09:00-20:00">
+    </div>
+
+    <!-- Sticky Mobile Action Bar (one-tap Call / WhatsApp / Quote) -->
+    <div class="mobile-action-bar" role="navigation" aria-label="Quick contact actions">
+        <div class="mobile-action-bar-inner">
+            <a href="tel:+914812569733" class="mobile-action-btn call" aria-label="Call Cosmic Surgicals now">
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/919447302140?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20medical%20equipment." target="_blank" rel="noopener noreferrer" class="mobile-action-btn whatsapp" aria-label="Chat on WhatsApp">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="#contact" class="mobile-action-btn quote" aria-label="Get a free quote">
+                <i class="fas fa-file-invoice" aria-hidden="true"></i>
+                <span>Get Quote</span>
+            </a>
+        </div>
     </div>
 
     <!-- Back to Top Button -->

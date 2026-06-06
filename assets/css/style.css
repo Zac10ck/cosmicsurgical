@@ -7,20 +7,20 @@
    CSS VARIABLES & ROOT SETTINGS
    ============================================ */
 :root {
-  /* Primary Colors */
-  --primary: #00D4FF;
-  --primary-dark: #0099CC;
-  --primary-darker: #006699;
-  --primary-light: #E6FAFF;
-  --primary-glow: rgba(0, 212, 255, 0.3);
+  /* Primary Colors — professional medical teal */
+  --primary: #0EA5A4;
+  --primary-dark: #0B8281;
+  --primary-darker: #086362;
+  --primary-light: #E6F6F5;
+  --primary-glow: rgba(14, 165, 164, 0.3);
 
-  /* Secondary Colors */
-  --secondary: #0a1628;
-  --secondary-light: #1a2d4a;
-  --secondary-lighter: #2a4066;
+  /* Secondary Colors — deep petrol-teal (replaces dark navy) */
+  --secondary: #0C3A43;
+  --secondary-light: #114E5B;
+  --secondary-lighter: #1C6675;
 
   /* Accent Colors */
-  --accent-green: #00E676;
+  --accent-green: #10B981;
   --accent-purple: #7C4DFF;
   --accent-orange: #FF9100;
   --accent-red: #FF5252;
@@ -85,8 +85,8 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  --shadow-glow: 0 0 40px rgba(0, 212, 255, 0.3);
-  --shadow-glow-lg: 0 0 60px rgba(0, 212, 255, 0.4);
+  --shadow-glow: 0 0 40px rgba(14, 165, 164, 0.3);
+  --shadow-glow-lg: 0 0 60px rgba(14, 165, 164, 0.4);
 
   /* Transitions */
   --transition-fast: 150ms ease;
@@ -604,12 +604,12 @@ ul, ol {
 .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: var(--white);
-  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(14, 165, 164, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 8px 25px rgba(14, 165, 164, 0.4);
   color: var(--white);
 }
 
@@ -1140,8 +1140,8 @@ ul, ol {
   width: 100%;
   height: 100%;
   background-image:
-    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(14, 165, 164, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 164, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
@@ -1162,8 +1162,8 @@ ul, ol {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  background: rgba(0, 212, 255, 0.15);
-  border: 1px solid rgba(0, 212, 255, 0.3);
+  background: rgba(14, 165, 164, 0.15);
+  border: 1px solid rgba(14, 165, 164, 0.3);
   border-radius: var(--radius-full);
   padding: var(--space-2) var(--space-4);
   font-size: var(--text-sm);
@@ -1234,7 +1234,7 @@ ul, ol {
 }
 
 .hero-stat:hover {
-  background: rgba(0, 212, 255, 0.1);
+  background: rgba(14, 165, 164, 0.1);
   border-color: var(--primary-glow);
   transform: translateY(-5px);
 }
@@ -1622,7 +1622,7 @@ ul, ol {
   background: var(--primary);
   color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(14, 165, 164, 0.3);
 }
 
 .products-grid {
@@ -1829,7 +1829,7 @@ ul, ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(0,212,255,0.05)" stroke-width="0.5"/></svg>');
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(14,165,164,0.05)" stroke-width="0.5"/></svg>');
   background-size: 100px 100px;
 }
 
@@ -1850,8 +1850,8 @@ ul, ol {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  background: rgba(0, 212, 255, 0.15);
-  border: 1px solid rgba(0, 212, 255, 0.3);
+  background: rgba(14, 165, 164, 0.15);
+  border: 1px solid rgba(14, 165, 164, 0.3);
   border-radius: var(--radius-full);
   padding: var(--space-2) var(--space-4);
   font-size: var(--text-sm);
@@ -1894,7 +1894,7 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 212, 255, 0.15);
+  background: rgba(14, 165, 164, 0.15);
   border-radius: var(--radius-lg);
   flex-shrink: 0;
 }
@@ -2303,7 +2303,7 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 212, 255, 0.15);
+  background: rgba(14, 165, 164, 0.15);
   border-radius: var(--radius-lg);
   flex-shrink: 0;
 }
@@ -2871,7 +2871,7 @@ ul, ol {
 .loader-spinner {
   width: 50px;
   height: 50px;
-  border: 3px solid rgba(0, 212, 255, 0.3);
+  border: 3px solid rgba(14, 165, 164, 0.3);
   border-top-color: var(--primary);
   border-radius: var(--radius-full);
   animation: rotate 1s linear infinite;
@@ -3279,4 +3279,209 @@ select:focus-visible {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* ============================================================
+   ✦ UI ENHANCEMENTS 2026 — visual polish, conversion & mobile
+   Appended layer: refines the existing design without removing
+   any SEO/structure. Loaded last so these rules take priority.
+   ============================================================ */
+
+/* ---- Smoother, richer buttons & micro-interactions ---- */
+.btn {
+  letter-spacing: 0.01em;
+  will-change: transform;
+}
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark) 60%, var(--primary-darker));
+  background-size: 180% 180%;
+  background-position: 0% 50%;
+  box-shadow: 0 6px 20px -6px var(--primary-glow);
+  transition: background-position var(--transition-slow), transform var(--transition-base), box-shadow var(--transition-base);
+}
+.btn-primary:hover {
+  background-position: 100% 50%;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -8px var(--primary-glow), var(--shadow-glow);
+}
+.btn-primary:active { transform: translateY(-1px) scale(0.99); }
+.btn-lg { font-weight: 600; }
+
+/* Cards lift a little more elegantly */
+.category-card,
+.product-card,
+.service-card,
+.testimonial-card,
+.location-card {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.category-card:hover,
+.product-card:hover,
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 48px -18px rgba(0, 102, 153, 0.28);
+}
+
+/* Badges get a soft sheen */
+.section-badge,
+.hero-badge,
+.about-badge {
+  backdrop-filter: blur(6px);
+}
+.hero-badge {
+  box-shadow: 0 8px 24px -10px var(--primary-glow);
+}
+
+/* ============================================================
+   ✦ TRUST / HIGHLIGHTS STRIP  (below the hero)
+   Conversion + crawlable USP text for SEO & AI.
+   ============================================================ */
+.trust-strip {
+  background: linear-gradient(135deg, var(--secondary), var(--secondary-light));
+  border-top: 1px solid rgba(14, 165, 164, 0.18);
+  border-bottom: 1px solid rgba(14, 165, 164, 0.18);
+  padding: var(--space-6) 0;
+  position: relative;
+  z-index: 2;
+}
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--white);
+}
+.trust-item-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-lg);
+  font-size: 1.25rem;
+  color: var(--primary);
+  background: rgba(14, 165, 164, 0.12);
+  border: 1px solid rgba(14, 165, 164, 0.25);
+}
+.trust-item-title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: var(--text-base);
+  line-height: 1.2;
+}
+.trust-item-text {
+  font-size: var(--text-xs);
+  color: var(--gray-300);
+  margin: 0;
+}
+
+/* ============================================================
+   ✦ STICKY MOBILE ACTION BAR  (Call / WhatsApp / Quote)
+   The single biggest mobile-conversion win — most visitors are
+   on phones, so one-tap Call & WhatsApp are always reachable.
+   Hidden on desktop; shown on tablets & phones.
+   ============================================================ */
+.mobile-action-bar {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-fixed);
+  background: rgba(10, 22, 40, 0.96);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(14, 165, 164, 0.25);
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.3);
+  padding: 8px max(8px, env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-right));
+}
+.mobile-action-bar-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+.mobile-action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 52px;
+  padding: 6px 4px;
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--white);
+  line-height: 1;
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+.mobile-action-btn i { font-size: 1.15rem; }
+.mobile-action-btn:active { transform: scale(0.96); filter: brightness(1.1); }
+.mobile-action-btn.call { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); }
+.mobile-action-btn.whatsapp { background: linear-gradient(135deg, #25D366, #128C7E); }
+.mobile-action-btn.quote {
+  background: linear-gradient(135deg, var(--accent-orange), #e07b00);
+}
+
+/* ============================================================
+   ✦ MOBILE-FIRST REFINEMENTS  (most visitors are on phones)
+   ============================================================ */
+@media (max-width: 992px) {
+  /* Show the sticky bar, keep content clear of it */
+  .mobile-action-bar { display: block; }
+  body { padding-bottom: 72px; }
+
+  /* Replace overlapping corner buttons with the sticky bar */
+  .floating-buttons { display: none; }
+  .back-to-top {
+    bottom: calc(72px + var(--space-4));
+  }
+
+  /* Comfortable tap targets everywhere */
+  .nav-link,
+  .mobile-nav-link,
+  .footer-link,
+  .btn { min-height: 44px; }
+  .mobile-nav-link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+  .trust-strip { padding: var(--space-4) 0; }
+
+  /* Punchier hero on phones */
+  .hero-badge { font-size: var(--text-xs); }
+  .hero-buttons { gap: var(--space-3); }
+
+  /* Headline & section titles stay readable, not cramped */
+  .hero-title { line-height: 1.18; }
+  .section-title { line-height: 1.2; }
+}
+
+@media (max-width: 480px) {
+  .trust-item { gap: var(--space-2); }
+  .trust-item-icon { width: 40px; height: 40px; font-size: 1.05rem; }
+  .trust-item-title { font-size: var(--text-sm); }
+  .mobile-action-btn { font-size: 0.72rem; }
+  /* Prevent any accidental sideways scroll on small screens */
+  html, body { max-width: 100%; }
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary,
+  .category-card,
+  .product-card,
+  .service-card { transition: none; }
 }
