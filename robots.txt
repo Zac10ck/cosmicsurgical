@@ -1,45 +1,27 @@
-# Robots.txt for Cosmic Surgicals
-# https://cosmicsurgicals.com
-
-# Allow all search engines
+# Cosmic Surgicals allows public pages and assets to be crawled.
 User-agent: *
 Allow: /
 
-# Allow Google
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-# Allow Google Images
-User-agent: Googlebot-Image
-Allow: /assets/images/
-
-# Allow Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-# Allow Yahoo
-User-agent: Slurp
-Allow: /
-
-# Allow DuckDuckGo
-User-agent: DuckDuckBot
-Allow: /
-
-# Allow Yandex
-User-agent: YandexBot
-Allow: /
-
-# Allow Baidu
-User-agent: Baiduspider
-Allow: /
-
-# Allow AI Crawlers
-User-agent: GPTBot
+# AI search and assistant crawlers are explicitly welcome.
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
@@ -48,28 +30,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-# Disallow certain directories
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /private/
-
-# Sitemap location
 Sitemap: https://cosmicsurgicals.com/sitemap.xml
-
-# Host
-Host: https://cosmicsurgicals.com

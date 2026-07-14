@@ -1,7 +1,7 @@
 # Security contact for Cosmic Surgicals
 Contact: mailto:cosmicsurgical@gmail.com
 Contact: tel:+914812569733
-Expires: 2025-12-31T23:59:59.000Z
+Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: en, ml, hi
 
 # Report security issues to our email

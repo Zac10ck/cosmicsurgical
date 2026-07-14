@@ -1,19 +1,13 @@
-/* TEAM */
-Company: Cosmic Surgicals
-Location: Kottayam, Kerala, India
-Contact: cosmicsurgical@gmail.com
+/* BUSINESS */
+Cosmic Surgicals
+Kottayam, Kerala, India
+Established: 1990
+Managing Director: Saji V Mathew
+Email: cosmicsurgical@gmail.com
 Phone: +91 481 256 9733
 
-/* SITE */
-Last update: December 2024
-Standards: HTML5, CSS3, JavaScript
-Software: Custom built
-
-/* BUSINESS */
-Cosmic Surgicals - Kerala's Premier Medical Equipment Supplier
-Established: 1990
-Products: 5000+
-Customers: 500+
-Experience: 34+ years
-
-Visit us: https://cosmicsurgicals.com
+/* WEBSITE */
+Last content review: 2026-07-14
+Language: English (India)
+Standards: semantic HTML5, responsive CSS, progressive JavaScript
+Accessibility: keyboard navigation, reduced-motion support, labelled interactions
