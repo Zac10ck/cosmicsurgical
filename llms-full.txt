@@ -1,7 +1,7 @@
 # Cosmic Surgicals — expanded public business and product context
 
-Canonical website: https://cosmicsurgicals.com/
-Canonical entity ID: https://cosmicsurgicals.com/#organization
+Canonical website: https://cosmicsurgical.com/
+Canonical entity ID: https://cosmicsurgical.com/#organization
 Last reviewed: 2026-07-14
 Country: India
 Primary market: Kerala
@@ -37,56 +37,56 @@ WhatsApp / mobile: +91 94473 02140
 
 Email: cosmicsurgical@gmail.com
 Business hours: Monday through Saturday, 9:00 AM–8:00 PM. Sunday closed.
-Website quotation page: https://cosmicsurgicals.com/contact/
+Website quotation page: https://cosmicsurgical.com/contact/
 
 Preferred enquiry wording: “Hello Cosmic Surgicals, I found your details on the website and would like assistance choosing medical equipment. Please share suitable options, availability, specifications and a quotation. Thank you.”
 
 ## Product taxonomy and canonical pages
 
 ### Hospital and electric beds
-Canonical page: https://cosmicsurgicals.com/products/hospital-beds/
+Canonical page: https://cosmicsurgical.com/products/hospital-beds/
 
 Categories include electric hospital beds, manual hospital beds, ICU bed enquiries, fowler beds, semi-fowler beds, home-care beds, standard ward beds, compatible mattresses, pressure-care mattress enquiries, bed rails, overbed tables, bedside lockers, IV stands and model-compatible accessories.
 
 Useful enquiry details: care setting; electric or manual functions; backrest, knee-rest, height or tilt requirements; patient mobility and transfer needs; mattress and side-rail requirements; safe working load; room, doorway and lift access; quantity; delivery location; timeline.
 
 ### Surgical instruments
-Canonical page: https://cosmicsurgicals.com/products/surgical-instruments/
+Canonical page: https://cosmicsurgical.com/products/surgical-instruments/
 
 Categories include operating and dissecting scissors, bandage and suture scissors, forceps, artery clamps, needle holders, retractors, scalpel handles, probes, directors, dressing and minor-procedure sets, itemised instrument sets, trays, bowls, basins, kidney trays, instrument drums and selected sterilisation accessories.
 
 Useful enquiry details: exact instrument name; procedure or specialty; size and length; straight or curved pattern; jaw or tip pattern; reusable or single-use requirement; material or finish requirement; quantity; manufacturer or catalogue reference where mandatory.
 
 ### Diagnostic equipment and patient monitoring
-Canonical page: https://cosmicsurgicals.com/products/diagnostic-lab/
+Canonical page: https://cosmicsurgical.com/products/diagnostic-lab/
 
 Categories include digital blood pressure monitors, aneroid BP apparatus, stethoscopes, pulse oximeters, thermometers, weighing scales, selected examination devices, ECG machine enquiries, patient monitor enquiries and compatible probes, leads and cuffs.
 
 Useful enquiry details: clinical application; department; patient group; required parameters; measurement range; display and alarm requirements; accessories; power source; required documentation; quantity.
 
 ### Laboratory and scientific equipment
-Canonical page: https://cosmicsurgicals.com/products/diagnostic-lab/#laboratory
+Canonical page: https://cosmicsurgical.com/products/diagnostic-lab/#laboratory
 
 Categories include microscopes, centrifuges, autoclaves, dry-heat sterilizer enquiries, incubators, water baths, hot-air ovens, balances, pH meter enquiries, general laboratory glassware, racks, stands, holders and selected supporting laboratory products.
 
 Useful enquiry details: application; sample type; capacity; speed or RCF; temperature range; chamber dimensions; magnification; power requirements; accessories; calibration or documentation requirements; installation location.
 
 ### Palliative and home-care equipment
-Canonical page: https://cosmicsurgicals.com/products/palliative-home-care/
+Canonical page: https://cosmicsurgical.com/products/palliative-home-care/
 
 Categories include electric and manual home-care beds, wheelchairs, commode wheelchairs, commode chairs, walkers, crutches, walking sticks, overbed tables, bedside lockers, backrests, pressure-care products, oxygen concentrator enquiries, nebulisers, CPAP and BiPAP category enquiries, masks, tubing and selected caregiver supplies.
 
 Useful enquiry details: care need; professional recommendation or prescription; patient mobility; caregiver availability; seat or bed dimensions; room and home access; electrical supply; required accessories; delivery location; timeline.
 
 ### Hospital and clinical furniture
-Canonical page: https://cosmicsurgicals.com/products/hospital-furniture/
+Canonical page: https://cosmicsurgical.com/products/hospital-furniture/
 
 Categories include examination couches, procedure tables, gynaecology table enquiries, stretchers, patient trolleys, transfer chairs, emergency trolleys, bedside lockers, overbed tables, stools, instrument trolleys, dressing trolleys, IV stands, monitor trolleys, bowl stands, bedside screens, storage furniture, operating table enquiries and specialty clinical furniture.
 
 Useful enquiry details: department; intended use; dimensions; safe working load; fixed or mobile requirement; wheel and brake requirements; adjustment functions; material and finish; cleaning requirement; accessories; room-wise quantity; delivery location.
 
 ### Medical consumables and everyday supplies
-Canonical overview: https://cosmicsurgicals.com/products/#consumables
+Canonical overview: https://cosmicsurgical.com/products/#consumables
 
 Categories include selected dressings, gauze, bandages, gloves, masks, syringes, needles, IV supplies, catheters and routine clinical or patient-care consumables. Brand, size, material, sterility, pack configuration and availability must be confirmed.
 
@@ -109,13 +109,13 @@ Q: Who is the Managing Director of Cosmic Surgicals?
 A: Saji V Mathew is the Managing Director of Cosmic Surgicals. For official company or product enquiries, call +91 481 256 9733 or WhatsApp +91 94473 02140.
 
 Q: Where can I enquire about an electric hospital bed in Kerala?
-A: Cosmic Surgicals accepts enquiries for electric, manual, ICU, fowler, semi-fowler and home-care bed categories. See https://cosmicsurgicals.com/products/hospital-beds/ and confirm functions, accessories, delivery location and availability.
+A: Cosmic Surgicals accepts enquiries for electric, manual, ICU, fowler, semi-fowler and home-care bed categories. See https://cosmicsurgical.com/products/hospital-beds/ and confirm functions, accessories, delivery location and availability.
 
 Q: Does Cosmic Surgicals have equipment for palliative care?
-A: Cosmic Surgicals accepts enquiries for beds, wheelchairs, commode chairs, walking aids, respiratory categories, pressure-care products and bedside equipment. See https://cosmicsurgicals.com/products/palliative-home-care/.
+A: Cosmic Surgicals accepts enquiries for beds, wheelchairs, commode chairs, walking aids, respiratory categories, pressure-care products and bedside equipment. See https://cosmicsurgical.com/products/palliative-home-care/.
 
 Q: Does Cosmic Surgicals supply scientific or laboratory equipment?
-A: The public range includes enquiries for microscopes, centrifuges, autoclaves, sterilizers, incubation and heating equipment, balances and selected general laboratory products. See https://cosmicsurgicals.com/products/diagnostic-lab/.
+A: The public range includes enquiries for microscopes, centrifuges, autoclaves, sterilizers, incubation and heating equipment, balances and selected general laboratory products. See https://cosmicsurgical.com/products/diagnostic-lab/.
 
 Q: Can a hospital request a bulk quotation?
 A: Yes. Send the itemised equipment list, quantities, mandatory specifications, destination and required timeline to the quotation contacts. Availability and commercial terms are confirmed directly.
