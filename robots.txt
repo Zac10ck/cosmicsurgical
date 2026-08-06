@@ -1,17 +1,24 @@
-# Cosmic Surgicals allows public pages and assets to be crawled.
+# Cosmic Surgicals — https://cosmicsurgical.com/
+# All public pages, images and machine-readable files may be crawled.
 User-agent: *
 Allow: /
 
-# AI search and assistant crawlers are explicitly welcome.
+# ---------------------------------------------------------------------------
+# AI assistants, AI search engines and agent crawlers are explicitly welcome.
+# Machine-readable summaries: /llms.txt, /llms-full.txt, /ai.txt
+# ---------------------------------------------------------------------------
+
+# OpenAI — ChatGPT, ChatGPT Search, agent browsing
+User-agent: GPTBot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: GPTBot
-Allow: /
-
+# Anthropic — Claude, Claude search and user-initiated fetches
 User-agent: ClaudeBot
 Allow: /
 
@@ -21,13 +28,112 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: anthropic-ai
 Allow: /
 
+# Google — AI Overviews, Gemini, Vertex grounding
 User-agent: Google-Extended
 Allow: /
 
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# Microsoft — Bing and Copilot
+User-agent: bingbot
+Allow: /
+
+# Apple — Siri and Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta — Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Amazon — Alexa and Rufus
+User-agent: Amazonbot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# DuckDuckGo AI assist
+User-agent: DuckAssistBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# ByteDance — Doubao, TikTok search
+User-agent: Bytespider
+Allow: /
+
+User-agent: TikTokSpider
+Allow: /
+
+# Huawei Petal search
+User-agent: PetalBot
+Allow: /
+
+# Allen Institute for AI
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Ai2Bot-Dolma
+Allow: /
+
+# Common Crawl — feeds many open models
 User-agent: CCBot
+Allow: /
+
+# Agent and extraction frameworks
+User-agent: FirecrawlAgent
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: omgilibot
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Timpibot
 Allow: /
 
 Sitemap: https://cosmicsurgical.com/sitemap.xml
