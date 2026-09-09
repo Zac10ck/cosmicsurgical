@@ -6,6 +6,7 @@ Allow: /
 # ---------------------------------------------------------------------------
 # AI assistants, AI search engines and agent crawlers are explicitly welcome.
 # Machine-readable summaries: /llms.txt, /llms-full.txt, /ai.txt
+# Local shop page: /surgical-shop-kottayam/  ·  Buying guides: /blog/
 # ---------------------------------------------------------------------------
 
 # OpenAI — ChatGPT, ChatGPT Search, agent browsing
