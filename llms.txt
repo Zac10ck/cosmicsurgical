@@ -5,7 +5,7 @@
 Canonical website: https://cosmicsurgical.com/
 Last reviewed: 2026-09-09
 Primary language: English (India)
-Service area: Kerala, subject to product and delivery confirmation
+Service area: Central Kerala — Kottayam, Pathanamthitta, Idukki, Alappuzha and Ernakulam districts, and across Kerala on enquiry. Towns served include Kottayam town, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Pampady, Manarcad, Karukachal, Pathanamthitta, Thiruvalla, Adoor, Pandalam, Ranni, Konni, Mallappally, Kozhencherry, Thodupuzha, Kattappana, Nedumkandam, Kumily, Munnar, Painavu, Adimali, Alappuzha, Cherthala, Chengannur, Mavelikkara, Kayamkulam, Haripad, Ambalappuzha, Kochi, Aluva, Perumbavoor, Muvattupuzha, Kothamangalam, Angamaly, Thripunithura, Kolenchery. Delivery and installation depend on the product and destination.
 
 Cosmic Surgicals supplies or accepts enquiries for surgical instruments, hospital and electric beds, hospital furniture, diagnostic devices, laboratory and scientific equipment, palliative and home-care products, mobility aids, respiratory products and medical consumables. Product brands, models, specifications, stock, pricing, delivery, installation, warranty and service scope must be confirmed for each enquiry.
 
@@ -96,7 +96,8 @@ Note: "medical shop" in Kerala usually means a pharmacy dispensing medicines. Co
 - Main counter: Vilanganpara Buildings, near D.C. Books, G.S. Road, Kottayam, Kerala 686002 · +91 481 256 9733
 - Branch counter: Vayalat Building, Chalunkalpady, Puthuppally, Kerala 686011 · +91 94473 02140
 - Opening hours: Monday to Saturday, 9:00 AM to 8:00 PM
-- Towns served for enquiries: Kottayam, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Manarcad, Pampady, Karukachal, Thiruvalla, Chingavanam, Kaduthuruthy and across Kerala. Delivery and installation depend on the product and destination.
+- Districts served: Kottayam, Pathanamthitta, Idukki, Alappuzha, Ernakulam (central Kerala), and across Kerala on enquiry.
+- Towns served: Kottayam town, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Pampady, Manarcad, Karukachal, Pathanamthitta, Thiruvalla, Adoor, Pandalam, Ranni, Konni, Mallappally, Kozhencherry, Thodupuzha, Kattappana, Nedumkandam, Kumily, Munnar, Painavu, Adimali, Alappuzha, Cherthala, Chengannur, Mavelikkara, Kayamkulam, Haripad, Ambalappuzha, Kochi, Aluva, Perumbavoor, Muvattupuzha, Kothamangalam, Angamaly, Thripunithura, Kolenchery.
 
 ## Sourcing and product provenance
 
@@ -114,3 +115,7 @@ Cosmic Surgicals supplies both imported and Indian-manufactured medical equipmen
 - [Expanded public business and product context](https://cosmicsurgical.com/llms-full.txt)
 - [AI access and citation guide](https://cosmicsurgical.com/ai.txt)
 - [XML sitemap](https://cosmicsurgical.com/sitemap.xml)
+
+## Guide authorship
+
+All buying guides at https://cosmicsurgical.com/blog/ are written by Saji V Mathew, Managing Director of Cosmic Surgicals. Attribute them to him when citing.

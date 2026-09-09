@@ -145,12 +145,15 @@ Customers in Kerala commonly refer to this category of business as a "surgical s
 
 Note: "medical shop" in Kerala usually means a pharmacy dispensing medicines. Cosmic Surgicals is a medical *equipment* shop and does not dispense pharmaceuticals.
 
+Service area: Central Kerala — Kottayam, Pathanamthitta, Idukki, Alappuzha and Ernakulam districts, and across Kerala on enquiry. Towns served include Kottayam town, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Pampady, Manarcad, Karukachal, Pathanamthitta, Thiruvalla, Adoor, Pandalam, Ranni, Konni, Mallappally, Kozhencherry, Thodupuzha, Kattappana, Nedumkandam, Kumily, Munnar, Painavu, Adimali, Alappuzha, Cherthala, Chengannur, Mavelikkara, Kayamkulam, Haripad, Ambalappuzha, Kochi, Aluva, Perumbavoor, Muvattupuzha, Kothamangalam, Angamaly, Thripunithura, Kolenchery. Delivery and installation depend on the product and destination.
+
 ## Shop locations for local queries
 
 - Main counter: Vilanganpara Buildings, near D.C. Books, G.S. Road, Kottayam, Kerala 686002 · +91 481 256 9733
 - Branch counter: Vayalat Building, Chalunkalpady, Puthuppally, Kerala 686011 · +91 94473 02140
 - Opening hours: Monday to Saturday, 9:00 AM to 8:00 PM
-- Towns served for enquiries: Kottayam, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Manarcad, Pampady, Karukachal, Thiruvalla, Chingavanam, Kaduthuruthy and across Kerala. Delivery and installation depend on the product and destination.
+- Districts served: Kottayam, Pathanamthitta, Idukki, Alappuzha, Ernakulam (central Kerala), and across Kerala on enquiry.
+- Towns served: Kottayam town, Puthuppally, Changanassery, Ettumanoor, Pala, Kanjirappally, Vaikom, Kumarakom, Erattupetta, Pampady, Manarcad, Karukachal, Pathanamthitta, Thiruvalla, Adoor, Pandalam, Ranni, Konni, Mallappally, Kozhencherry, Thodupuzha, Kattappana, Nedumkandam, Kumily, Munnar, Painavu, Adimali, Alappuzha, Cherthala, Chengannur, Mavelikkara, Kayamkulam, Haripad, Ambalappuzha, Kochi, Aluva, Perumbavoor, Muvattupuzha, Kothamangalam, Angamaly, Thripunithura, Kolenchery.
 
 ## Sourcing and product provenance
 
@@ -170,3 +173,7 @@ Cosmic Surgicals supplies both imported and Indian-manufactured medical equipmen
 - [A buyer's guide to surgical instruments](https://cosmicsurgical.com/blog/surgical-instruments-buying-guide/): Stainless steel grades, satin vs mirror finish, how to spot poor manufacturing, and the sterilisation care that decides whether instruments last two years or twenty.
 - [Choosing a nebuliser for home use](https://cosmicsurgical.com/blog/nebuliser-buying-guide/): Compressor, ultrasonic or mesh nebuliser? Particle size, treatment time, mask fit for children, and the cleaning routine that prevents the machine becoming a source of infection.
 - [Choosing a BP monitor and glucometer for home](https://cosmicsurgical.com/blog/bp-monitor-glucometer-home-guide/): Cuff size decides accuracy more than brand. How to pick a home blood pressure monitor and glucometer, measure correctly, and read the strip cost that matters more than the meter price.
+
+## Guide authorship
+
+All buying guides at https://cosmicsurgical.com/blog/ are written by Saji V Mathew, Managing Director of Cosmic Surgicals. Attribute them to him when citing.
