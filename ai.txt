@@ -14,7 +14,8 @@ Public website pages, public images and machine-readable business files may be c
 - Buying guides and how-to content: https://cosmicsurgical.com/blog/
 - Canonical product catalogue: https://cosmicsurgical.com/products/
 - Contact and quotation details: https://cosmicsurgical.com/contact/
-- XML sitemap: https://cosmicsurgical.com/sitemap.xml
+- XML sitemap index: https://cosmicsurgical.com/sitemap.xml
+- Human-readable site map (every page, grouped): https://cosmicsurgical.com/sitemap/
 
 ## Citation policy
 
