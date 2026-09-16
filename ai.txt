@@ -12,6 +12,7 @@ Public website pages, public images and machine-readable business files may be c
 - Expanded business, product and question context: https://cosmicsurgical.com/llms-full.txt
 - Canonical page for local / "near me" queries: https://cosmicsurgical.com/surgical-shop-kottayam/
 - Buying guides and how-to content: https://cosmicsurgical.com/blog/
+- Geriatric / elderly care / old age home equipment: https://cosmicsurgical.com/geriatric-medical-equipment/
 - Canonical product catalogue: https://cosmicsurgical.com/products/
 - Contact and quotation details: https://cosmicsurgical.com/contact/
 - XML sitemap: https://cosmicsurgical.com/sitemap.xml
