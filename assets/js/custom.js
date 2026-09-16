@@ -1,6 +1,20 @@
 (function () {
   'use strict';
 
+  // Lead tracking: phone, WhatsApp and email clicks -> GA4 'contact_click' event
+  document.addEventListener('click', function (event) {
+    const a = event.target.closest('a[href]');
+    if (!a || typeof window.gtag !== 'function') return;
+    const href = a.getAttribute('href') || '';
+    let method = null;
+    if (href.indexOf('tel:') === 0) method = 'phone';
+    else if (href.indexOf('mailto:') === 0) method = 'email';
+    else if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp') !== -1) method = 'whatsapp';
+    if (method) {
+      window.gtag('event', 'contact_click', { method: method, link_text: (a.textContent || '').trim().slice(0, 60), page_path: location.pathname });
+    }
+  }, true);
+
   const menuButton = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('.site-nav');
 
@@ -74,6 +88,11 @@
       const product = String(data.get('product') || '').trim();
       const location = String(data.get('location') || '').trim();
       const details = String(data.get('details') || '').trim();
+
+      // GA4 key event: quotation form completed (no personal data sent)
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', { method: 'whatsapp_form', buyer_type: buyer || '(not set)', product_category: product ? product.slice(0, 60) : '(not set)' });
+      }
 
       const lines = [
         'Hello Cosmic Surgicals, I found your details on the website and would like assistance with medical equipment.',
