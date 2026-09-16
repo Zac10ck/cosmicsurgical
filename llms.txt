@@ -114,7 +114,7 @@ Cosmic Surgicals supplies both imported and Indian-manufactured medical equipmen
 
 - [Expanded public business and product context](https://cosmicsurgical.com/llms-full.txt)
 - [AI access and citation guide](https://cosmicsurgical.com/ai.txt)
-- [XML sitemap index](https://cosmicsurgical.com/sitemap.xml)
+- [XML sitemap](https://cosmicsurgical.com/sitemap.xml)
 - [Human-readable site map](https://cosmicsurgical.com/sitemap/)
 
 ## Guide authorship

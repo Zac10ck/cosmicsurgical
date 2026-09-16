@@ -138,6 +138,3 @@ User-agent: Timpibot
 Allow: /
 
 Sitemap: https://cosmicsurgical.com/sitemap.xml
-Sitemap: https://cosmicsurgical.com/sitemap-pages.xml
-Sitemap: https://cosmicsurgical.com/sitemap-guides.xml
-Sitemap: https://cosmicsurgical.com/sitemap-images.xml
