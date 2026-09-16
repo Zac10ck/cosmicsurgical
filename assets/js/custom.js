@@ -24,9 +24,33 @@
     });
 
     document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape') closeMenu();
+      if (event.key === 'Escape') {
+        closeMenu();
+        document.querySelectorAll('.has-menu.open').forEach(function (o) { o.classList.remove('open'); });
+      }
     });
   }
+
+  // Products dropdown: hover/focus opens on desktop via CSS; on touch devices the
+  // first tap opens the menu and the second follows the link.
+  document.querySelectorAll('.has-menu > a').forEach(function (trigger) {
+    const item = trigger.parentElement;
+    trigger.addEventListener('click', function (event) {
+      const touch = window.matchMedia('(hover: none)').matches;
+      const wide = window.matchMedia('(min-width: 821px)').matches;
+      if (touch && wide && !item.classList.contains('open')) {
+        event.preventDefault();
+        document.querySelectorAll('.has-menu.open').forEach(function (o) { o.classList.remove('open'); });
+        item.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function (event) {
+    if (!event.target.closest('.has-menu')) {
+      document.querySelectorAll('.has-menu.open').forEach(function (o) { o.classList.remove('open'); });
+    }
+  });
+
 
   document.querySelectorAll('.faq-question').forEach(function (button) {
     button.addEventListener('click', function () {
